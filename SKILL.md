@@ -1,6 +1,6 @@
 ---
 name: Lead Enrichment & Cleanup Agent — RevOps Intelligence Engine
-description: Analyze, Orchestrate, and Validate operations to: Ingests messy CRM lead data, actively searches the web to enrich missing firmographics (industry, website, job title), deterministically validates email syntax via Python, and outputs a clean, CRM-ready enriched table. ROI: eliminates manual data entry and prevents routing failures caused by dirty records.
+description: "Analyze, Orchestrate, and Validate operations to: Ingests messy CRM lead data, actively searches the web to enrich missing firmographics (industry, website, job title), deterministically validates email syntax via Python, and outputs a clean, CRM-ready enriched table. ROI: eliminates manual data entry and prevents routing failures caused by dirty records."
 ---
 
 # 🎯 Goal
