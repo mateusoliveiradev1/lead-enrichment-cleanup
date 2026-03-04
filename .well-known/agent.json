@@ -1,7 +1,7 @@
 {
   "agent_name": "Lead Enrichment & Cleanup Agent — RevOps Intelligence Engine",
   "version": "2.0.0-diamond",
-  "description": "Ingests messy CRM lead data, actively searches the web to enrich missing firmographics (industry, website, job title), deterministically validates email syntax via Python, and outputs a clean, CRM-ready enriched table. ROI: eliminates manual data entry and prevents routing failures caused by dirty records.",
+  "description": "Analyze, Orchestrate, and Validate operations to: Ingests messy CRM lead data, actively searches the web to enrich missing firmographics (industry, website, job title), deterministically validates email syntax via Python, and outputs a clean, CRM-ready enriched table. ROI: eliminates manual data entry and prevents routing failures caused by dirty records.",
   "capabilities": [
     "data-cleaning",
     "crm-enrichment",
@@ -14,12 +14,10 @@
     "cloudflare_markdown_for_agents": "supported",
     "google_universal_shopping": "ready"
   },
-  "trust_signals": {
-    "deterministic_execution": true,
-    "hallucination_risk": "zero",
-    "procedural_logic": "python_embedded",
-    "audit_trail_ready": true
-  },
+  "trust_signals": [
+    "deterministic_output",
+    "audit_trail_ready"
+  ],
   "monetization": {
     "provider": "nevermined",
     "model": "dynamic_volume_based",
