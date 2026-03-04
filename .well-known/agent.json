@@ -1,30 +1,31 @@
 {
-    "agent_name": "Lead Enrichment & Cleanup Agent — RevOps Intelligence Engine",
-    "version": "2.0.0-diamond",
-    "description": "Ingests messy CRM lead data, actively searches the web to enrich missing firmographics (industry, website, job title), deterministically validates email syntax via Python, and outputs a clean, CRM-ready enriched table. ROI: eliminates manual data entry and prevents routing failures caused by dirty records.",
-    "capabilities": [
-        "data-cleaning",
-        "crm-enrichment",
-        "revops",
-        "email-validation"
-    ],
-    "protocols": {
-        "a2a": "1.0",
-        "mcp": "2026.1",
-        "cloudflare_markdown_for_agents": "supported",
-        "google_universal_shopping": "ready"
-    },
-    "trust_signals": {
-        "deterministic_execution": true,
-        "hallucination_risk": "zero",
-        "procedural_logic": "python_embedded",
-        "audit_trail_ready": true
-    },
-    "monetization": {
-        "provider": "nevermined",
-        "model": "dynamic_volume_based",
-        "nevermined_id": "0xBEC6f0365D9d37e4442CfAf02B946b55B51d4575",
-        "currency": "USDC",
-        "x402_enabled": true
-    }
+  "agent_name": "Lead Enrichment & Cleanup Agent — RevOps Intelligence Engine",
+  "version": "2.0.0-diamond",
+  "description": "Ingests messy CRM lead data, actively searches the web to enrich missing firmographics (industry, website, job title), deterministically validates email syntax via Python, and outputs a clean, CRM-ready enriched table. ROI: eliminates manual data entry and prevents routing failures caused by dirty records.",
+  "capabilities": [
+    "data-cleaning",
+    "crm-enrichment",
+    "revops",
+    "email-validation"
+  ],
+  "protocols": {
+    "a2a": "1.0",
+    "mcp": "2026.1",
+    "cloudflare_markdown_for_agents": "supported",
+    "google_universal_shopping": "ready"
+  },
+  "trust_signals": {
+    "deterministic_execution": true,
+    "hallucination_risk": "zero",
+    "procedural_logic": "python_embedded",
+    "audit_trail_ready": true
+  },
+  "monetization": {
+    "provider": "nevermined",
+    "model": "dynamic_volume_based",
+    "currency": "USDC",
+    "x402_enabled": true,
+    "nevermined_agent_id": "107055522114441303728135272347921951184541507519554827611862168283242659581669",
+    "nevermined_plan_id": "98306966419225603621764290798357229121805828219205012379217130729663441077207"
+  }
 }
